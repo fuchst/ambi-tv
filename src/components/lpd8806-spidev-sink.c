@@ -178,8 +178,8 @@ ambitv_lpd8806_set_output_to_rgb(
    struct ambitv_sink_component* component,
    int idx,
    int r,
-   int g,
-   int b)
+   int b,
+   int g)
 {
    int ret = -1, *outp = NULL, i, *rgb[] = {&r, &g, &b};
    struct ambitv_lpd8806_priv* lpd8806 =
